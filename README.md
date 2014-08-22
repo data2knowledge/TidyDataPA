@@ -1,22 +1,24 @@
-Human Activity Recognition Using Smartphones Data Set 
+Human Activity Recognition (Using Smartphones Data Set)
 ===========
 
-### The raw data
+### The raw data set
 
-The raw data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+The raw data set is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ### The tidy data set
 
-To get tidy data set, the raw data is clean as the following 
+To get tidy data set, the raw data is cleand as the followings 
 
 * Load all the data set for Traning,Test,Subject and Activity
-* Extracts the measurements data only on the mean and standard deviation for Training
-* Extracts the measurements data only on the mean and standard deviation for Test
-* Change Activity name to Training Labels and Test Labels by using factor
-* Add Subject and Activity  as the columns in the main data set of Training and Test
-* And merge all the data into one set
+* Extract the measurements data only on the mean and standard deviation for Training
+* Extract the measurements data only on the mean and standard deviation for Test
+* Label activity name to Training Labels and Test Labels by using factor
+* Add Subject data set and Activity data set as the new columns in the main data set of Training and Test
+* And merge all the data into one set and called "mergedDataSet"
 * Add the variable names to Traning and Test
 * Add appropriate labels the data set with descriptive variable names. 
+* Creates a second tidy data set with the average of each variable for each activity and each subject
+* Write the result to a file called "hci.txt" to the working directory
 
 ### The code book
 
@@ -30,9 +32,9 @@ The code book (HCI Code Book.pdf) contains the details about tidy data set
 ### How to use the tidy data set?
 
 * Load run_analysis.R
-* Type tidyDataSet or mergedDataSet
+* Poupulate the tidy data set
 
-### Code Snippet
+### Source Code Usage
 
 Library(run_analysis.R)
 
