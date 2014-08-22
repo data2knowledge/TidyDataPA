@@ -34,7 +34,7 @@ The code book (HCI Code Book.pdf) contains the details about tidy data set
 * The raw data will be downloaded and unzip automatically under the directory called "HCIData"
 * Poupulate the tidy data set and do analysis
 
-### Sample
+### Examples
 
 Library(run_analysis.R)
 
