@@ -28,7 +28,7 @@ The code book (HCI Code Book.pdf) contains the details about tidy data set
 * Description
 * Sample data
 
-### How to use the tidy data set?
+### How to use "tidyDataSet"?
 
 * Load run_analysis.R. 
 * The raw data will be downloaded and unzip automatically under the directory called "HCIData"
@@ -42,7 +42,5 @@ head(tidyDataSet,3)
 
 tail(tidyDataSet,3)
 
-head(mergedDataSet,3)
 
-tail(mergedDataSet,3)
 
