@@ -30,8 +30,9 @@ The code book (HCI Code Book.pdf) contains the details about tidy data set
 
 ### How to use the tidy data set?
 
-* Load run_analysis.R
-* Poupulate the tidy data set
+* Load run_analysis.R. 
+* The raw data will be downloaded and unzip automatically under the directory called "HCIData"
+* Poupulate the tidy data set and do analysis
 
 ### Source Code Usage
 
