@@ -12,10 +12,9 @@ To get tidy data set, the raw data is cleand as the followings
 * Load the data for Traning,Test,Subject and Activity by using read.table command
 * Extract the measurement only on the mean and standard deviation for Training data by using grepl command
 * Extract the measurement only on the mean and standard deviation for Test data by using grepl command
-* And activity labels to Training Labels and Test Labels by using factor command
+* Add activity labels to Training Labels and Test Labels by using factor command
 * Add Subject and Activity data sets as the new columns in the main data set of Training and Test
 * Merge all the data set into one called "mergedDataSet"
-* Add the variable names to Traning and Test
 * Add appropriate labels to the data set with descriptive variable names. 
 * Creates a second tidy data set called "tidyDataSet" with the average of each variable for each activity and each subject
 * Write the result to a file called "hci.txt" to the working directory
